@@ -29,7 +29,7 @@ namespace ElfocrashEncDec
             OpenFileDialog fdlg = new OpenFileDialog();
             fdlg.Title = "Browse the package you want to Encrypt/Decrypt";
             fdlg.InitialDirectory = @"c:\";
-            fdlg.Filter = "UKX Files (*.ukx)|*.ukx|UTX Files (*.utx)|*.utx";
+            fdlg.Filter = "UKX Files (*.ukx)|*.ukx|UTX Files (*.utx)|*.utx|Bitmap files (*.bmp)|*.bmp";
             fdlg.FilterIndex = 2;
             fdlg.RestoreDirectory = true;
             if (fdlg.ShowDialog() == DialogResult.OK)
